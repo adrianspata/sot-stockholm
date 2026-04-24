@@ -4,6 +4,7 @@ import { GlobalContextProviders } from "./components/_globalContextProviders";
 import { CookieConsent } from "./components/CookieConsent";
 import { NewsletterPopup } from "./components/NewsletterPopup";
 import { SharedLayout } from "./components/SharedLayout";
+import { Analytics } from "@vercel/analytics/react";
 
 // Cart Types
 export interface CartItem {
@@ -135,6 +136,7 @@ export function App() {
           </Routes>
           <CookieConsent />
           <NewsletterPopup />
+          <Analytics />
         </CartProvider>
       </GlobalContextProviders>
     </BrowserRouter>
