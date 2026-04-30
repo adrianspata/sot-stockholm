@@ -81,11 +81,6 @@ env.json
 dist/
 .DS_Store
 
-# Public assets (images, videos, fonts)
-public/images/
-public/videos/
-public/fonts/
-
 # Editor directories and files
 .idea
 .vscode/*
